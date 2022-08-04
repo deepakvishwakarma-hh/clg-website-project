@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makhanlal University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .hero-section {
+            height: 100vh;
+            background-size: cover;
+            background: url("./src/hero-bg.png");
+            background-repeat: no-repeat;
+            background-position: 400px;
+        }
+
+        .hero-section>nav {
+            display: flex;
+            height: 80px;
+            padding: 0 5rem;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.048);
+        }
+
+        .hero-section>nav>.logo {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+        }
+
+        .hero-section>nav>.logo>h1 {
+            padding: 0 0 0 1rem;
+        }
+
+
+        .banner {
+            height: calc(100vh - 80px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner>div {
+            flex: 1;
+        }
+
+        .banner>.typograph {
+            padding: 0 5rem;
+        }
+
+        .banner>.typograph>h1 {
+            font-size: 2rem;
+            font-family: 'Cinzel' !important;
+        }
+
+        .banner>.typograph>p {
+            font-size: 1rem;
+            max-width: 700px;
+        }
+
+
+        .gallary {
+            background: whitesmoke;
+        }
+
+        .gallary h1 {
+            text-align: center;
+            padding: 5rem 0;
+            font-family: 'Cinzel' !important;
+
+        }
+
+        /* utility classes */
+
+        .get-started-btn {
+            display: flex;
+            border: none;
+            font-weight: 500;
+            border-radius: 5px;
+            align-items: center;
+            padding: .8rem 3rem;
+            background: #77d4f9;
+            margin: 1rem 1rem 1rem 0;
+
+        }
+
+        .function-wrapper {
+            display: flex;
+            margin: 2rem 0;
+        }
+
+        .function-wrapper>div {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        .function-wrapper>.right {
+            display: flex;
+            align-items: flex-start;
+
+        }
+
+        .function-wrapper>.right>h3 {
+            font-size: 2rem;
+            max-width: 600px;
+            padding: .3rem;
+            font-family: 'Cinzel' !important;
+
+
+        }
+
+        .function-wrapper>.right>p {
+            font-size: 1rem;
+            max-width: 700px;
+            padding: .3rem;
+            line-height: 2rem;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="hero-section">
+        <nav>
+            <div class="logo">
+                <img src="./src/icon.svg" alt="logo-svg">
+                <h1> MCU</h1>
+            </div>
+
+            <button class="get-started-btn">Get Started <i style="margin-left : 10px"> <img src="./src/right-arrow.svg"
+                        alt="arrow-icon"></i>
+
+        </nav>
+
+        <div class="banner">
+            <div class="typograph">
+                <h1> Makhanlal Chaturvedi <br> National of <br> Journalism & Communication.</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <button class="get-started-btn">Know more <i style="margin-left : 10px"> <img
+                            src="./src/right-arrow.svg" alt="arrow-icon"></i>
+                </button>
+            </div>
+            <div></div>
+        </div>
+    </section>
+
+    <section class="gallary">
+
+        <h1>Organised Function</h1>
+
+
+        <div class="function-wrapper">
+
+            <div class="left">
+                <img src="https://images.unsplash.com/photo-1571687949921-1306bfb24b72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+            </div>
+            <div class="right">
+                <h3>Mountain Camping . 2022</h3>
+                <p>State forestry agencies, the paper and timber companies, and other private landowners all grow
+                    plantations.
+
+                    Christmas trees are frequently cultivated on plantations, and teak plantations have recently
+                    supplanted native forests in southern and southeast Asia.
+
+                    For the commercial production of forest products, industrial plantations are actively managed.
+                    Large-scale industrial plantations are common.
+
+                    Individual blocks are usually uniform in age and contain only one or two species. These species
+                    might be either foreign or native.</p>
+            </div>
+
+        </div>
+
+        <div class="function-wrapper">
+
+            <div class="left">
+                <img src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2F2ZSUyMHRyZWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+            </div>
+            <div class="right">
+                <h3>Save Tree, Tree Plantation . 2022</h3>
+                <p>State forestry agencies, the paper and timber companies, and other private landowners all grow
+                    plantations.
+
+                    Christmas trees are frequently cultivated on plantations, and teak plantations have recently
+                    supplanted native forests in southern and southeast Asia.
+
+                    For the commercial production of forest products, industrial plantations are actively managed.
+                    Large-scale industrial plantations are common.
+
+                    Individual blocks are usually uniform in age and contain only one or two species. These species
+                    might be either foreign or native.</p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+</body>
+
+</html>
+
+
+
+<!-- navigation links code 
+
+    #classes
+
+    .hero-section>nav>.navigation {
+            flex: 1;
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        .hero-section>nav>.navigation>button {
+            border: none;
+            outline: none;
+            padding: .5rem 2rem;
+            cursor: pointer;
+            font-size: 17px;
+            font-weight: 500;
+            background: none;
+        }
+
+
+        structure
+
+         <div class="navigation">
+                <button> About</button>
+                <button> Schools</button>
+                <button> On Campus</button>
+                <button> Student Corner</button>
+                <button> Admissions & Result</button>
+            </div> 
+
+-->
